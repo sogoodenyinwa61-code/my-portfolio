@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import CursorGlow from "./components/CursorGlow";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -50,6 +50,7 @@ function App() {
 
       <main>
         <Hero />
+       <CursorGlow/>
         <About />
         <Services />
         <Skills />
