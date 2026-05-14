@@ -10,13 +10,7 @@ function Projects() {
       description:
         "A modern gadget product page built with React, reusable components, and responsive CSS.",
       tools: "React • CSS • JavaScript",
-    },
-    {
-      title: "Personal Portfolio Website",
-      category: "React",
-      description:
-        "A single-page portfolio website with theme switch, smooth animations, and clean layout.",
-      tools: "React • CSS • JavaScript",
+      live: "https://tech-ecommerce-mauve.vercel.app/",
     },
     {
       title: "Laundry Booking Platform",
@@ -24,6 +18,7 @@ function Projects() {
       description:
         "A service platform concept that connects customers with laundry vendors and delivery options.",
       tools: "HTML • CSS • JavaScript",
+      live: "https://your-laundry-link.vercel.app",
     },
     {
       title: "Cycle Tracker",
@@ -31,6 +26,7 @@ function Projects() {
       description:
         "A simple web calculator that uses JavaScript logic to predict cycle dates.",
       tools: "JavaScript • Forms • Logic",
+      live: "https://your-cycle-tracker-link.vercel.app",
     },
     {
       title: "Login UI Design",
@@ -38,13 +34,16 @@ function Projects() {
       description:
         "A clean login and signup interface with modern layout, form styling, and responsive design.",
       tools: "HTML • CSS • UI Design",
+      live: "https://your-login-ui-link.vercel.app",
     },
     {
-      title: "Responsive Landing Page",
-      category: "UI",
-      description:
-        "A landing page layout focused on spacing, typography, sections, and mobile responsiveness.",
-      tools: "HTML • CSS • Responsive Design",
+    title: "Restaurant Landing Page",
+    category: "UI",
+    description:
+      "A stylish restaurant website layout with hero section, menu preview, and clean visual design.",
+    tools: "HTML • CSS • JavaScript",
+    live: "https://your-restaurant-link.vercel.app",
+  
     },
   ];
 
@@ -116,8 +115,13 @@ function Projects() {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
 
-              <a href="#contact" className="project-link">
-                Discuss Project →
+              <a
+                href={project.live}
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                View Live Site →
               </a>
             </article>
           );

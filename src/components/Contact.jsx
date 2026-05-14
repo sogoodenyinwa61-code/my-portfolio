@@ -58,10 +58,10 @@ function Contact() {
             <a href="mailto:sogoodenyinwa61@gmail.com">
               sogoodenyinwa61@gmail.com
             </a>
-            <a href="https://github.com/" target="_blank">
+            <a href="https://github.com/sogoodenyinwa61-code/" target="_blank">
               GitHub
             </a>
-            <a href="https://www.linkedin.com/" target="_blank">
+            <a href="https://www.linkedin.com/in/sogood-enyinwa//" target="_blank">
               LinkedIn
             </a>
           </div>

@@ -29,10 +29,10 @@ function Hero() {
         </div>
 
         <div className="social-links">
-          <a href="https://github.com/" target="_blank" aria-label="GitHub">
+          <a href="https://github.com/sogoodenyinwa61-code/" target="_blank" aria-label="GitHub">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/sogood-enyinwa/" target="_blank" aria-label="LinkedIn">
             <FaLinkedinIn />
           </a>
           <a href="mailto:sogoodenyinwa61@gmail.com" aria-label="Email">

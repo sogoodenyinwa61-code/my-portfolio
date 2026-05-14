@@ -1285,3 +1285,17 @@ a {
     height: 44px;
   }
 }
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  color: var(--primary);
+  font-weight: 900;
+  transition: 0.3s ease;
+}
+
+.project-link:hover {
+  color: var(--secondary);
+  transform: translateX(6px);
+}
